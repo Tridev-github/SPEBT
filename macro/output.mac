@@ -1,0 +1,13 @@
+#=====================================================
+#  D A T A   O U T P U T   
+#=====================================================
+
+/vis/open VRML2FILE detector_config.wrl
+#/gate/output/VRML/enable true
+#/gate/output/VRML/filename geometry_visualization.wrl
+
+/gate/output/tree/enable
+#/gate/output/tree/addFileName ../data/08282023/SPEBT.npy
+/gate/output/tree/addFileName ./SPEBT.root
+/gate/output/tree/hits/enable
+/gate/output/tree/addCollection Singles
